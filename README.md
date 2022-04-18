@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Backend TypeScript | Do JavaScript ao TypeScript
+# Backend TypeScript | Tipos de dados I
 
 ## Exercícios
 
