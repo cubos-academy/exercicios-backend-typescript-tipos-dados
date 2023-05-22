@@ -1,4 +1,4 @@
-const usuarios = [
+const usuarios: {nome: string, pets: string[]}[] = [
     {
         nome: "João",
         pets: ["Max"],
@@ -21,8 +21,8 @@ const usuarios = [
     },
 ];
 
-const buscarDonoPet = (lista, nomePet) => {
-    let usuarioEncontrado;
+const buscarDonoPet = (lista: {nome: string, pets: string[]}[], nomePet: string): void => {
+    let usuarioEncontrado: any;
 
     for (const usuario of lista) {
         if (usuario.pets.includes(nomePet)) {
